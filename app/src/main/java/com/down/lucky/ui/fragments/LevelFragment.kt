@@ -91,6 +91,7 @@ class LevelFragment : Fragment(R.layout.level_screen) {
 
     override fun onPause() {
         super.onPause()
+        timer?.cancel()
         isGameActive = false
         stopAnimation()
     }
