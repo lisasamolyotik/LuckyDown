@@ -7,7 +7,7 @@ class Puzzle {
         private var index = if (Level.level < 30) {
             Level.level / 6
         } else {
-            Level.level % 6
+            Level.level % 6 - 1
         }
         private val images = arrayOf(
             R.drawable.img1,
@@ -18,7 +18,7 @@ class Puzzle {
         )
 
         val image get() = images[index]
-        var piece = Level.level % 6 - 1
+        var piece = Level.level % 6 - 2
 
         private fun nextImage() {
             if (index < 4) {
