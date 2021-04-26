@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lucky Down</string>
+    <string name="rules">Collect only the correct balls with the basket. Avoid the balls with the skull. Collect points to unlock another puzzle piece! Keep track of time and speed, with each next level the time decreases, and the speed increases.</string>
+    <string name="rules_2">Collect the picture to the end and find out what is shown on it!</string>
+    <string name="time">Time</string>
+    <string name="score">Score %1$d</string>
+    <string name="speed">Speed %1$d</string>
+    <string name="loading">Loading %1$d</string>
+</resources>
